@@ -1,0 +1,23 @@
+# ───────────────────── core numerical / ML ─────────────────────
+numpy>=1.26,<2.0
+pandas>=2.2,<3.0
+scikit-learn>=1.5,<2.0          # Logistic, SVM, model-selection, metrics
+imbalanced-learn>=0.13,<0.15    # SMOTE, BalancedRandomForest
+xgboost>=2.0,<3.0                # Gradient-boosted trees (GPU/CPU)
+
+# ───────────────────── visualisation ───────────────────────────
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<0.14
+
+# ───────────────────── interpretability (optional) ─────────────
+shap>=0.45,<1.0                  # SHAP values for feature importance
+
+# ───────────────────── notebooks / dev UX (optional) ───────────
+jupyterlab>=4.0,<5.0
+ipykernel>=6.29,<7.0
+ipywidgets>=8.1,<9.0
+
+# ───────────────────── nice-to-have dev tools (optional) ───────
+black>=24.3     # code formatter
+isort>=5.13     # import sorter
+pre-commit>=3.7 # Git hooks
